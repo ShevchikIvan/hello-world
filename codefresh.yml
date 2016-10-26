@@ -15,6 +15,6 @@ steps:
     tag: ${{CF_BRANCH}}
     registry: ${{AWS_REGISTRY}}
     credentials:
-      username: ${{AWS_ACCOUNT_ID}}
-      password: ${{AWS_SECRET_ACCESS_KEY}}
+      username: ${{AWS_USERNAME}}
+      password: ${{AWS_PASSWORD}}
     fail-fast: false
